@@ -1,0 +1,240 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('OIG3.yjm3PF1o3.jpg') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* قرار دادن مستطیل در وسط افقی */
+    align-items: center;
+    /* قرار دادن مستطیل در وسط عمودی */
+    height: 100vh;
+    /* اندازه مستطیل برابر ارتفاع صفحه است */
+}
+
+.container {
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.8);
+    /* اضافه کردن زمینه سفید نیمه شفاف */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 80%;
+    /* عرض مستطیل */
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#crypto-counter {
+    font-size: 2.5em;
+    margin-left: 10px;
+}
+
+.coin-sticker {
+    width: 50px;
+    height: 50px;
+}
+
+#clicker-btn {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    /* حاشیه نازک به رنگ مشکی */
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#clicker-btn .coin-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.upgrades-container {
+    display: flex;
+    justify-content: center;
+}
+
+.upgrades {
+    background: rgba(255, 255, 255, 0.8);
+    /* زمینه سفید نیمه شفاف */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    /* قرار دادن دکمه‌های ارتقا به صورت عمودی */
+    gap: 10px;
+}
+
+.upgrade-btn {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(40, 167, 69, 0.7);
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.upgrade-btn:hover {
+    background: #218838;
+    box-shadow: 0 0 20px rgba(40, 167, 69, 1);
+}
+
+#clicker-btn,
+.upgrade-btn {
+    transition: background 0.3s, transform 0.1s;
+}
+
+#clicker-btn:active,
+.upgrade-btn:active {
+    transform: scale(0.95);
+}
+
+
+/* styles.css */
+
+
+/* بقیه کدها */
+
+.upgrades {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    /* تغییر به ستونی */
+    align-items: center;
+    /* قرار دادن در وسط عمودی */
+    gap: 10px;
+}
+
+.upgrade-btn {
+    font-size: 1.2em;
+    padding: 10px;
+    width: 150px;
+    /* اندازه ثابت */
+    height: 150px;
+    /* اندازه ثابت */
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    /* اضافه کردن گوشه‌های گرد */
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(40, 167, 69, 0.7);
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.upgrade-btn:hover {
+    background: #218838;
+    box-shadow: 0 0 20px rgba(40, 167, 69, 1);
+}
+
+
+/* styles.css */
+
+
+/* بقیه کدها */
+
+.upgrades {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    /* تغییر به افقی */
+    align-items: center;
+    justify-content: center;
+    /* قرار دادن در وسط افقی */
+    gap: 10px;
+}
+
+.upgrade-btn {
+    font-size: 1.2em;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(40, 167, 69, 0.7);
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.upgrade-btn:hover {
+    background: #218838;
+    box-shadow: 0 0 20px rgba(40, 167, 69, 1);
+}
+
+
+/* styles.css */
+
+
+/* بقیه کدها */
+
+.upgrade-btn {
+    font-size: 1em;
+    /* کوچک‌تر کردن اندازه فونت */
+    padding: 5px;
+    /* کوچک‌تر کردن فاصله داخلی */
+    width: 100px;
+    /* کوچک‌تر کردن عرض */
+    height: 100px;
+    /* کوچک‌تر کردن ارتفاع */
+}
+
+
+/* styles.css */
+
+
+/* بقیه کدها */
+
+#score {
+    display: flex;
+    justify-content: space-between;
+    /* قرار دادن عناصر در دو طرف صفحه */
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#wallet-link {
+    font-size: 1em;
+    padding: 5px 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    /* حذف زیرخط */
+}
+
+#wallet-link:hover {
+    background: #0056b3;
+}
